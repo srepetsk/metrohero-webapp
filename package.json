@@ -51,7 +51,7 @@
     "react-linkify": "^0.2.2",
     "react-md-spinner": "^1.0.0",
     "react-motion": "^0.5.1",
-    "react-pure-render-ignore-functions": "NGuldager/react-pure-render-ignore-functions",
+    "react-pure-render-ignore-functions": "1.0.0",
     "react-router-dom": "^5.2.0",
     "react-svg-pan-zoom": "^2.18.0",
     "react-swipeable-views": "^0.14.0",
