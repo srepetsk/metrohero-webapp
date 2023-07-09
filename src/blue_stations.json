@@ -181,6 +181,24 @@
       }
     },
     {
+      "Code": "C11",
+      "Name": "Potomac Yard",
+      "StationTogether1": "",
+      "StationTogether2": "",
+      "LineCode1": "BL",
+      "LineCode2": "YL",
+      "LineCode3": null,
+      "LineCode4": null,
+      "Lat": 38.83108,
+      "Lon": -77.04644,
+      "Address": {
+        "Street": "2900 Potomac Greens Drive",
+        "City": "Alexandria",
+        "State": "VA",
+        "Zip": "22314"
+      }
+    },
+    {
       "Code": "C12",
       "Name": "Braddock Road",
       "StationTogether1": "",
