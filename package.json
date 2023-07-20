@@ -31,7 +31,7 @@
   "dependencies": {
     "addressbar": "^1.0.3",
     "babel-polyfill": "^6.26.0",
-    "chart.js": "2.8.0",
+    "chart.js": "2.9.4",
     "create-react-class": "^15.7.0",
     "google-map-react": "^1.1.6",
     "immutable": "^3.8.2",
