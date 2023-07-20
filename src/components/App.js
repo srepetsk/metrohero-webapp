@@ -75,7 +75,7 @@ export default createReactClass({
   },
 
   UNSAFE_componentWillMount() {
-    ga.initialize('G-7PMPTFBSB3');
+    ga.initialize('G-5BVX6FRNFP');
     ga.send({
       hitType: "pageview",
       page: window.location.pathname

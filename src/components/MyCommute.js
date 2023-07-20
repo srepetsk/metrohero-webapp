@@ -241,11 +241,11 @@ export default createReactClass({
     const fabBottom = this.state.isShowingAnySnackbar ? 60 : 16;
 
     const shuttingDownAlert = (
-      <div className="alert alert-danger" style={{margin: 12, width: '100%'}}>
-        <strong>This {this.state.isMobileDevice ? "app" : "website"} will stop working on July 1st, 2023!</strong><br/>
-        The MetroHero project is shutting down.<br/>
-        For more info, please check out <a href="https://www.patreon.com/posts/end-of-era-78380459" target="_blank">our blog post</a>.
-      </div>
+     <div className="alert alert-success" style={{margin: 12, width: '100%'}}>
+       <strong>This {this.state.isMobileDevice ? "app" : "website"} will continue working after July 1st, 2023!</strong><br/>
+       The original MetroHero project has shut down, but this fork will live on.<br/>
+       For more info, please checkout <a href="https://www.reddit.com/r/dcmetrohero" target="_blank">our Reddit community</a>.
+     </div>
     );
 
     return (

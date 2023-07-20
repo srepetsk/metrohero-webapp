@@ -699,8 +699,11 @@ export default createReactClass({
           <BetweenStationRow code={'C09_C10'} isOnLeft={true} />
           <BetweenStationRow code={'C10_C09'} isOnLeft={false} />
           <StationRow isDarkMode={this.props.isDarkMode} stationName={"Ronald Reagan Washington National Airport"} stationCode={"C10"} ref="C10" onClick={this._handleClickStation.bind(null, "Ronald Reagan Washington National Airport", "C10")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Ronald Reagan Washington National Airport", "C10")} onTapOutage={this._handleTapOutage.bind(null, "Ronald Reagan Washington National Airport", "C10")} />
-          <BetweenStationRow code={'C10_C12'} isOnLeft={true} />
-          <BetweenStationRow code={'C12_C10'} isOnLeft={false} />
+          <BetweenStationRow code={'C10_C11'} isOnLeft={true} />
+          <BetweenStationRow code={'C11_C10'} isOnLeft={false} />
+          <StationRow isDarkMode={this.props.isDarkMode} stationName={"Potomac Yard"} stationCode={"C11"} ref="C11" onClick={this._handleClickStation.bind(null, "Potomac Yard", "C11")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Potomac Yard", "C11")} onTapOutage={this._handleTapOutage.bind(null, "Potomac Yard", "C11")} />
+          <BetweenStationRow code={'C11_C12'} isOnLeft={true} />
+          <BetweenStationRow code={'C12_C11'} isOnLeft={false} />
           <StationRow isDarkMode={this.props.isDarkMode} stationName={"Braddock Road"} stationCode={"C12"} ref="C12" onClick={this._handleClickStation.bind(null, "Braddock Road", "C12")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Braddock Road", "C12")} onTapOutage={this._handleTapOutage.bind(null, "Braddock Road", "C12")} />
           <BetweenStationRow code={'C12_C13'} isOnLeft={true} />
           <BetweenStationRow code={'C13_C12'} isOnLeft={false} />
@@ -766,8 +769,11 @@ export default createReactClass({
           <BetweenStationRow code={'C09_C10'} isOnLeft={true} />
           <BetweenStationRow code={'C10_C09'} isOnLeft={false} />
           <StationRow isDarkMode={this.props.isDarkMode} stationName={"Ronald Reagan Washington National Airport"} stationCode={"C10"} ref="C10" onClick={this._handleClickStation.bind(null, "Ronald Reagan Washington National Airport", "C10")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Ronald Reagan Washington National Airport", "C10")} onTapOutage={this._handleTapOutage.bind(null, "Ronald Reagan Washington National Airport", "C10")} />
-          <BetweenStationRow code={'C10_C12'} isOnLeft={true} />
-          <BetweenStationRow code={'C12_C10'} isOnLeft={false} />
+          <BetweenStationRow code={'C10_C11'} isOnLeft={true} />
+          <BetweenStationRow code={'C11_C10'} isOnLeft={false} />
+          <StationRow isDarkMode={this.props.isDarkMode} stationName={"Potomac Yard"} stationCode={"C11"} ref="C11" onClick={this._handleClickStation.bind(null, "Potomac Yard", "C11")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Potomac Yard", "C11")} onTapOutage={this._handleTapOutage.bind(null, "Potomac Yard", "C11")} />
+          <BetweenStationRow code={'C11_C12'} isOnLeft={true} />
+          <BetweenStationRow code={'C12_C11'} isOnLeft={false} />
           <StationRow isDarkMode={this.props.isDarkMode} stationName={"Braddock Road"} stationCode={"C12"} ref="C12" onClick={this._handleClickStation.bind(null, "Braddock Road", "C12")} stationTwitterOnClick={this._handleClickStationTwitter.bind(null, "Braddock Road", "C12")} onTapOutage={this._handleTapOutage.bind(null, "Braddock Road", "C12")} />
           <BetweenStationRow code={'C12_C13'} isOnLeft={true} />
           <BetweenStationRow code={'C13_C12'} isOnLeft={false} />
