@@ -33,7 +33,7 @@
     "babel-polyfill": "^6.26.0",
     "chart.js": "2.9.4",
     "create-react-class": "^15.7.0",
-    "google-map-react": "^1.1.6",
+    "google-map-react": "^2.2.1",
     "immutable": "^3.8.2",
     "local-storage": "^1.4.2",
     "lodash": "^4.17.21",
