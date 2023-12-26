@@ -177,6 +177,14 @@ export default createReactClass({
       });
     }
 
+          /*
+          <div className="alert alert-success" style={{margin: 12}}>
+            <strong>This {this.state.isMobileDevice ? "app" : "website"} will continue working after July 1st, 2023!</strong><br/>
+            The original MetroHero project has shut down, but this fork will live on.<br/>
+            For more info, please checkout <a href="https://www.reddit.com/r/dcmetrohero" target="_blank">our Reddit community</a>.
+          </div>
+          */
+
     return (
       <div className="Dashboard vertical-scrolling">
         <div style={{marginBottom: '46px'}}>
@@ -184,11 +192,6 @@ export default createReactClass({
             onClickNavItem={this.props.onClickNavItem}
             isDarkMode={this.props.isDarkMode}
           />
-          <div className="alert alert-success" style={{margin: 12}}>
-            <strong>This {this.state.isMobileDevice ? "app" : "website"} will continue working after July 1st, 2023!</strong><br/>
-            The original MetroHero project has shut down, but this fork will live on.<br/>
-            For more info, please checkout <a href="https://www.reddit.com/r/dcmetrohero" target="_blank">our Reddit community</a>.
-          </div>
           {lineItems}
         </div>
       </div>
