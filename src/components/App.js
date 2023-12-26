@@ -419,14 +419,17 @@ export default createReactClass({
           <Subheader className="left-nav-subheader">Developer Support</Subheader>
           <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to Public API Docs', '/apis')}>Public API Documentation</MenuItem>
           <Subheader className="left-nav-subheader">External Links</Subheader>
-          {!this.state.isMobileDevice ? <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to App on Google Play', 'https://play.google.com/store/apps/details?id=com.hodgepig.wmata')}>Download our Android app</MenuItem> : null}
+          {/*
+          !this.state.isMobileDevice ? <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to App on Google Play', 'https://play.google.com/store/apps/details?id=com.hodgepig.wmata')}>Download our Android app</MenuItem> : null}
           {!this.state.isMobileDevice ? <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to App on Apple App Store', 'https://itunes.apple.com/us/app/metrohero/id1375269139')}>Download our iOS app</MenuItem> : null}
-          <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to @metroheroapp Twitter', 'https://twitter.com/dcmetrohero')}>Follow us on Twitter</MenuItem>
           <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to MetroHero Facebook', 'https://www.facebook.com/dcmetrohero')}>Like us on Facebook</MenuItem>
+        */}
           <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to r/dcmetrohero Subreddit', 'https://www.reddit.com/r/dcmetrohero')}>Browse our Subreddit</MenuItem>
-          <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to Patreon', 'https://www.patreon.com/metrohero')}>Become a Patron</MenuItem>
-          <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to T-shirt', 'https://www.amazon.com/dp/B07N1BJQZ5')}>Buy a MetroHero T-shirt</MenuItem>
-          <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to Trello', 'https://trello.com/b/82MKv5uq')}>Browse our To-do List</MenuItem>
+      {/*
+        <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to Patreon', 'https://www.patreon.com/metrohero')}>Become a Patron</MenuItem>
+        <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to T-shirt', 'https://www.amazon.com/dp/B07N1BJQZ5')}>Buy a MetroHero T-shirt</MenuItem>
+        <MenuItem className="left-nav-item" onClick={this._onClickNavItemLink.bind(null, 'Clicked Link to Trello', 'https://trello.com/b/82MKv5uq')}>Browse our To-do List</MenuItem>
+      */}
           <div
             style={{
               height: 48
