@@ -270,7 +270,7 @@ export default createReactClass({
             icon={<ImageWbSunny />}
             value={0}
           />
-          Tab
+          <Tab
             label="Evening"
             icon={<ImageBrightness3 />}
             value={1}
