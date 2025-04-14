@@ -53,7 +53,7 @@
     "react-motion": "^0.5.1",
     "react-pure-render-ignore-functions": "1.0.0",
     "react-router-dom": "^5.2.0",
-    "react-svg-pan-zoom": "^2.18.0",
+    "react-svg-pan-zoom": "^3.12.1",
     "react-swipeable-views": "^0.14.0",
     "react-tippy": "^1.4.0",
     "react-ultimate-pagination-material-ui": "^1.2.0",
