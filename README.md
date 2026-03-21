@@ -1,6 +1,6 @@
 # MetroHero Webapp
 
-The webapp for the MetroHero project, a (now defunct) app for WMATA Metrorail commuters and transit nerds in and around the DC area. This repository contains all the client-side source code for the webapp. For MetroHero's server-side source code, see [the MetroHero server repository](https://github.com/jamespizzurro/metrohero-server).
+The webapp for the MetroHero project, an app for WMATA Metrorail commuters and transit nerds in and around the DC area. This repository contains all the client-side source code for the webapp. For MetroHero's server-side source code, see [the MetroHero server repository](https://github.com/jamespizzurro/metrohero-server).
 
 This project requires a live connection to an instance of [the MetroHero server](https://github.com/jamespizzurro/metrohero-server). Check out that repository for more information. It includes the latest official build of this webapp inside of it, so if you're only looking to use MetroHero as-is, you may not need to use this repository at all.
 
